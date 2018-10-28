@@ -2,13 +2,11 @@ eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
 ---
 spring:
   profiles: subject
-//words: I,You,He,She,It
 words: I,You
 
 ---
 spring:
   profiles: verb
-//words: ran,knew,had,saw,bought
 words: ran,knew
 
 ---
@@ -19,11 +17,9 @@ words: a,the
 ---
 spring:
   profiles: adjective
-//words: reasonable,leaky,suspicious,ordinary,unlikely
 words: reasonable,leaky
 
 ---
 spring:
   profiles: noun
-//words: boat,book,vote,seat,backpack,partition,groundhog 
 words: boat,book
